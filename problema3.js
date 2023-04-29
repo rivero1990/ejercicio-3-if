@@ -15,6 +15,6 @@ function confirmacionPremio() {
     } else if ((num1 == num2) || (num1 == num3) || (num2 == num3)) {
         resultadoPremio.innerHTML = ("Premio segundo : 150000 dolares");
     } else {
-        resultadoPremio.innerHTML = ("Ganaste un helado");
+        resultadoPremio.innerHTML = (" Premio consuelo : ganaste un helado");
     }
 }
